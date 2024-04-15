@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="icon" type="image/x-icon" href="/jlogo.PNG">
+    <title>Jaya -Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="portfolio.css">
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+      
+        <header>
+            <nav class="navbar navbar-fixed-top">
+              <div class="container">
+                <div class="navbar-header">
+                  <button
+                    type="button"
+                    class="navbar-toggle"
+                    data-toggle="collapse"
+                    data-target="#myNavbar"
+                  >
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <div class="navbar-brand">
+                    <img
+                      src="/jlogo.PNG"
+                      alt="logo"
+                      style="border-radius: 50%; width: 30%; padding: 5px"
+                    />
+                    Jaya Singh
+                  </div>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="myNavbar" style="background-color: rgb(50, 121, 164);">
+                  <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#secondclass">About</a></li>
+                    <li><a href="#thirdclass">Skills</a></li>
+                    <li><a href="#fourthclass">Contact me</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </header>
+        <main>
+            <section id="firstclass" class="first">
+                <div class="leftsection ">
+                    Hi! My name is <span style="color:rgb(231, 142, 231);">Jaya Singh</span>  and I am a passionate <span id="element"></span>.
+                    <div class="buttons">
+                        <a class="btn" href="/CV jaya.pdf" target="_blank">Download resume</a>
+                        <a class="btn" href="https://github.com/jayasingh27010" target="_blank">Visit github</a>
+                    </div>
+                </div>
+                <div class="rightsection">
+                    <img src="/jayaphoto.jpg" alt="developer" ">
+                    
+                </div>
+            </section>
+            <hr>
+            <section id="secondclass" class="second">
+                <h1>About Me</h1>
+                
+                <p>I am an enthusiastic and detail-oriented individual on the journey to becoming a proficient Front-end Developer. Currently pursuing my Master's in Computer Applications (MCA) from IGNOU.
+                    
+                    I earned my stripes in the field of Computer Science with a successful completion of my undergraduate studies at Shaheed Rajguru College of Applied Sciences for Women, Delhi University (DU). Through my academic pursuits and personal projects, I have honed my skills in HTML, CSS and JavaScript, laying the groundwork for a successful career in front-end development.
+                    
+                    I am eager to apply my academic knowledge and hands-on skills in a dynamic work environment. My goal is to contribute to innovative projects, collaborate with like-minded professionals, and continuously expand my skill set.</p>
+            </section>
+            <section id="thirdclass" class="third">
+                <h1>Skills</h1>
+                <hr>
+                <div class="gallery">
+                    <img src="htmlimg.png" alt="html" width="12%">
+                    <img src="cssimg2.png" alt="css" width="12%">
+                    <img src="/javscr.png" alt="JavaScript" width="12%">
+                    <img src="bootstrapimg.png" alt="bootstrap" width="12%">
+                    <img src="jquery.png" alt="jQuery" width="12%">
+                    <img src="json.png" alt="json" width="12%">
+                    <img src="c++.png" alt="c++" width="12%">
+                    <img src="javaimg.png" alt="java" width="12%">
+                        
+                </div>
+                <hr>
+            </section>
+            <section id="fourthclass" class="fourth">
+                <h1>Contact Me</h1>
+                <div class="cont">
+                    <div class="lside">
+                        <div class="contact">
+                            <div><span class="material-symbols-outlined prod">
+                                call
+                                </span>
+                            </div>
+                            <div class="info">
+                                <p >Phone:</p>
+                                <h3>+7982713813</h3>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <div><span class="material-symbols-outlined prod">
+                                mail
+                                </span>
+                            </div>
+                            <div class="info">
+                                <p >Email:</p>
+                                <h3>jaya.gusain27@gmail.com</h3>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <div><span class="material-symbols-outlined prod">
+                                location_on
+                                </span>
+                            </div>
+                            <div class="info">
+                                <p >Address:</p>
+                                <h3>New Delhi,India</h3>
+                            </div>
+                        </div>
+                            
+                    </div>
+                    <div class="rside">
+                        <form id="myform" >
+                            <label for="name">Name:*</label>
+                            <input type="text" id="name" placeholder="Enter Name" required style="width:100%" ><br><br>
+                            <label for="email">Email:*</label>
+                            <input type="email" id="email" placeholder="Enter your email" required style="width:100%"><br><br>
+                            <label for="country">Country:*</label>
+                            <input type="text" id="country" placeholder="country" required style="width:100%"><br><br>
+                            <label for="subject">Subject:*</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." required style="height:70px;width:100%;"></textarea>
+                            <button id="sub" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h4>Responsive Website created by Jaya Singh</h4>
+        </footer>
+    
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Front-end Web Developer'],
+          typeSpeed: 50,
+        });
+       document.getElementById("myform").addEventListener("submit",function(){
+        alert('Thank you! Form submitted successfully.');
+        event.preventDefault();
+       });
+    </script>
+</body>
+</html>

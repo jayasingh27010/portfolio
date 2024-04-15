@@ -1,0 +1,375 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: "Poppins", sans-serif;
+}
+html{
+    font-size:100%;
+}
+body{
+    /*background-color:rgb(53, 53, 110);*/
+    background-image: url("/background.avif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+    
+}
+.navbar {
+    background-color: rgb(50, 121, 164);
+    min-height: 120px;
+  }
+  .navbar-brand {
+    color: white;
+    font-size: 3vw;
+    height: auto;
+  }
+  .navbar-brand .navbar-text {
+    color: white;
+    display: inline-block;
+  }
+  .navbar-nav li a {
+    color: white;
+    font-size: 1.8vw;
+  }
+  .navbar-brand > img {
+    display: inline-block;
+  }
+  .navbar-header {
+    min-height: 120px;
+  }
+  .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+  .navbar-toggle {
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+
+  .navbar-nav > li > a {
+    padding: 60px 20px;
+  }
+  @media screen and (max-width: 767px) {
+    .navbar-nav > li > a {
+      padding: 10px 14px;
+    }
+    .navbar-brand{
+      font-size: 5vw;
+    }
+    .navbar-nav li a {
+    
+    font-size: 4vw;
+  }
+  }
+  button .navbar-toggle{
+    width:30px;
+    height:20px;
+  }
+  .navbar-toggle .icon-bar {
+    
+    width: 30px;
+    height: 4px;
+  }
+  .navbar-nav > li > a:hover {
+    color:rgb(188, 188, 241);
+    background-color:transparent;
+  }
+  @media screen and (min-width:768px){
+    .container{
+        width:100%;
+    }
+  }
+
+.buttons{
+    padding:20px 0;
+    display:flex;
+}
+.leftsection .btn{
+   background-color:rgb(185, 74, 185);
+   color:white;
+   border:1px solid white;
+   border-radius:5px;
+   padding:10px;
+   margin:10px 7px 10px 0;
+   font-size:1.6vw;
+   cursor:pointer;
+   text-decoration:none;
+}
+.leftsection .btn:hover{
+    opacity:0.8;
+    border-color:purple;
+}
+
+.first{
+    display:flex;
+    justify-content: space-around;
+    margin:160px 0 180px; 
+
+}
+
+
+.leftsection{
+     margin:30px 20px;
+    font-size:3.2vw;
+    width:30%;
+    
+}
+.rightsection{
+    width:40%;
+}
+
+.rightsection img{
+   margin:40px 30px;
+   border:2px solid white;
+   border-radius:50%;
+   width:80%;
+   height:80%;
+   box-shadow: 0 26px 90px 0 rgb(241, 239, 239);
+}
+.rightsection img:hover{
+ border:3px solid whitesmoke;
+}
+hr{
+    width:90%;
+    margin:auto;
+}
+.second{
+    max-width:80vw;
+    margin:auto;
+    padding:100px 0 250px;
+    
+    
+}
+.second h1{
+    font-size:4vw;
+    padding:20px;
+    
+}
+
+.second p{
+    line-height:1.8;
+    text-align:justify;
+    padding:50px;
+    font-size:2vw;
+    border:6px solid whitesmoke;
+    border-radius:10px;
+}
+.second p:hover{
+    box-shadow: 0 32px 96px 0 rgb(241, 239, 239);
+}
+.third{
+    text-align:center;
+    width:70%;
+    margin:auto;
+    padding:100px 0 120px ;
+}
+.third h1{
+    font-size:4vw;
+    padding:20px;
+}
+.gallery{
+    display:flex;
+    justify-content:center;
+   flex-wrap:wrap;
+   margin:40px 0;
+    padding:20px 0 80px;
+    
+}
+.gallery img{
+    border:2px solid white;
+    border-radius:10px;
+    margin:20px;
+}
+.fourth{
+    padding:100px 0 120px;
+    font-size: 100%;
+}
+
+.fourth h1{
+    font-size:4vw;
+    padding:20px 60px 60px;
+}
+.cont{
+    display:flex;
+    justify-content: space-around;
+}
+.lside{
+    width:37%;
+    padding-top:40px;
+}
+.rside{
+    width:35%;
+}
+.info h3{
+    font-size: 2vw;
+}
+.prod{
+    border:1px solid white;
+    border-radius:10px;
+    margin:10px;
+    padding:7px;
+    
+}
+.contact{
+    display:flex;
+    align-items:center;
+    max-width:100%;
+    height:65px;
+    margin:30px 0;
+    padding:20px;
+    
+}
+.contact:hover{
+    background-color:rgb(50,121,164);
+    border-radius:8px;
+    box-shadow: 0 12px 64px 0 rgb(60, 60, 146);
+}
+input[type=text],input[type=email],textarea{
+    border:1px solid rgb(81, 81, 136);
+    border-radius:5px;
+    padding:6px;
+    margin:10px 0;
+}
+:focus{
+    background-color: rgb(149, 149, 189);
+    border:none;
+}
+#sub{
+    width:100%;
+    border:none;
+    border-radius:5px;
+    font-size:18px;
+    padding:10px;
+    color:white;
+    background-color: rgba(167, 71, 190,1.0);
+}
+#sub:hover{
+    background-color: rgba(167, 71, 190,0.6);
+}
+footer{
+    height:120px;
+    background-color:rgb(33, 84, 116);
+    display:flex;
+    border-radius:8px;
+    align-items: center;
+    justify-content: center;
+}
+footer h4{
+    font-size: 2vw;
+}
+@media screen and (max-width: 767px){
+.navbar-nav li a {
+    font-size: 2.8vw;
+}
+}
+
+@media screen and  (max-width:682px){
+ 
+   .leftsection{
+    font-size:3.8vw;
+   }
+   .leftsection .btn{
+    font-size:2vw;
+   }
+   .fourth{
+    font-size:1.2rem;
+   }
+   .info h3{
+    font-size:4vw;
+   }
+   .second p{
+    font-size:3vw;
+    padding:10px;
+   }
+   .cont{
+    flex-direction: column;
+    
+   }
+   .lside{
+    width:80%;
+    margin:auto;
+    padding:10px 10px 80px;
+   }
+   
+   .fourth h1{
+    padding:10px 80px 20px;
+   }
+   .rside{
+    width:70%;
+    margin:auto;
+   }
+   
+   footer h4{
+    font-size:3vw;
+   }
+}
+@media screen and (max-width:550px){
+  
+    .first{
+        flex-direction:column-reverse;
+        width:80%;
+        margin:auto;
+        padding-top:120px;
+       
+    }
+    .rightsection{
+          width:100%;
+    }
+    .leftsection{
+        width:70%;
+        font-size:4.2vw;
+        margin:auto;
+    }
+    .leftsection .btn{
+        font-size:2.6vw;
+    }
+    .second h1, .third h1, .fourth h1{
+        font-size:6vw;
+    }
+    .navbar-nav li a {
+        font-size: 3.4vw;
+    }
+    .second p{
+        font-size:4vw;
+    }
+    .gallery img{
+        width:18% !important;
+    }
+    footer h4{
+        font-size:3.6vw;
+    }
+    .contact{
+        padding: 0;
+    }
+    .info h3{
+        font-size:4.8vw;
+    }
+}
+@media screen and (max-width:395px){
+    .first{
+        padding-top:170px;
+        width:100%;
+    }
+    .rightsection{
+        width:80%;
+        margin:auto;
+    }
+    .leftsection{
+        font-size:4.6vw;
+    }
+    .leftsection .btn{
+        font-size:3.2vw;
+    }
+    .second p{
+        font-size:4vw;
+    }
+    .navbar{
+        min-height:80px;
+    }
+    .gallery img{
+        width:18% !important;
+    }
+    footer h4{
+        font-size:4vw;
+    }
+}
