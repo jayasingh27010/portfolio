@@ -9,7 +9,7 @@ html{
 }
 body{
     /*background-color:rgb(53, 53, 110);*/
-    background-image: url("/background.avif");
+    background-image: url("background.avif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     color:white;
